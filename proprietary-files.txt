@@ -557,3 +557,4 @@ lib64/libfilter-sdk.so
 lib64/libopbaselib.so
 lib64/libopcamera.so
 lib64/libopcameralib.so
+priv-app/OnePlusCamera/OnePlusCamera.apk
