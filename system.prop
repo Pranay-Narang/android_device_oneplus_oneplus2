@@ -153,3 +153,6 @@ persist.timed.enable=true
 
 # Zram disk
 ro.config.zram=true
+
+# Da SN
+ro.boot.verifiedbootstate=green 

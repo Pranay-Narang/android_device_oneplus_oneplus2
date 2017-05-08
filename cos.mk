@@ -19,10 +19,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from oneplus2 device
 $(call inherit-product, device/oneplus/oneplus2/device.mk)
 
-# Inherit some common du stuff.
-$(call inherit-product, vendor/du/config/common_full_phone.mk)
+# Inherit some common Cosmic-OS stuff.
+$(call inherit-product, vendor/cos/config/common_full_phone.mk)
 
-PRODUCT_NAME := du_oneplus2
+PRODUCT_NAME := cos_oneplus2
 PRODUCT_DEVICE := oneplus2
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
